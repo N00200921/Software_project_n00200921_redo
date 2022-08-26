@@ -116,7 +116,7 @@ class Dealershipcontroller extends Controller
     public function edit($id)
     {
         $dealerships = Dealership::all();
-        return view('admin.dealership.index', [
+        return view('admin.dealership.edit', [
             'dealerships' => $dealerships
 
 
